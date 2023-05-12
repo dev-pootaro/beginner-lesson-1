@@ -37,9 +37,8 @@ public class FileApiController {
    * @return {List<FileMst>}
    */
   @GetMapping("/get-files")
-  public List<FileMst> getFiles() throws Exception {
-    throw new Exception("");
-    // return this.service.getFiles();
+  public List<FileMst> getFiles() {
+    return this.service.getFiles();
   }
 
   /**
