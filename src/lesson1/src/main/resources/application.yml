@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+  datasource:
+    url: ${MYAPP_JDBC_URL}
+    username: ${MYAPP_JDBC_USER}
+    password: ${MYAPP_JDBC_PASS}
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
