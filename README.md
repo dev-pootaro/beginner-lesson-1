@@ -1,1 +1,0 @@
-# beginner-lesson-1
